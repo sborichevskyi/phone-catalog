@@ -87,10 +87,12 @@ h4 {
   @include small-text;
 
   color: $primary-color;
+  font-family: Mont, sans-serif;
 }
 
 .body-text-black {
   @include body-text;
 
   color: $primary-color;
+  font-family: Mont, sans-serif;
 }

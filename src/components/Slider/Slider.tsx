@@ -4,22 +4,15 @@ import classNames from 'classnames';
 
 import styles from './Slider.module.scss';
 
-// const banner1Big = '/img/baner1.svg';
-// const banner1Small = '/img/baner1small.svg';
-// const banner2Big = '/img/banner-accessoriesReady.png';
-// const banner2Small = '/img/banner-accessoriesReadySmall.png';
-// const banner3Big = '/img/banner-phones.png';
-// const banner3Small = '/img/banner-phonesSmall.png';
+const banner1Big = '/img/baner1.svg';
+const banner1Small = '/img/baner1small.svg';
+const banner2Big = '/img/banner-accessoriesReady.png';
+const banner2Small = '/img/banner-accessoriesReadySmall.png';
+const banner3Big = '/img/banner-phones.png';
+const banner3Small = '/img/banner-phonesSmall.png';
 
 import arrowLeft from '../../assets/Icons/Arrow-left.svg';
 import arrowRight from '../../assets/Icons/Arrow-right.svg';
-// import banner1Big from '../../assets/banner1.svg';
-import banner1Big from '../../../public/img/baner1.svg';
-import banner1Small from '../../../public/img/banner1small.svg';
-import banner2Big from '../../../public/img/banner-accessoriesReady.png';
-import banner2Small from '../../../public/img/banner-accessoriesReadySmall.png';
-import banner3Big from '../../../public/img/banner-phones.png';
-import banner3Small from '../../../public/img/banner-phonesSmall.png';
 
 const slides = [
   { id: 1, imageSmall: banner1Small, imageLarge: banner1Big, alt: 'banner1' },

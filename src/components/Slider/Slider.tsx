@@ -13,12 +13,13 @@ import styles from './Slider.module.scss';
 
 import arrowLeft from '../../assets/Icons/Arrow-left.svg';
 import arrowRight from '../../assets/Icons/Arrow-right.svg';
-import banner1Big from '../../assets/banner1.svg';
-import banner1Small from '../../assets/banner1small.svg';
-import banner2Big from '../../assets/banner-accessoriesReady.png';
-import banner2Small from '../../assets/banner-accessoriesReadySmall.png';
-import banner3Big from '../../assets/banner-phones.png';
-import banner3Small from '../../assets/banner-phonesSmall.png';
+// import banner1Big from '../../assets/banner1.svg';
+import banner1Big from '../../../public/img/baner1.svg';
+import banner1Small from '../../../public/img/banner1small.svg';
+import banner2Big from '../../../public/img/banner-accessoriesReady.png';
+import banner2Small from '../../../public/img/banner-accessoriesReadySmall.png';
+import banner3Big from '../../../public/img/banner-phones.png';
+import banner3Small from '../../../public/img/banner-phonesSmall.png';
 
 const slides = [
   { id: 1, imageSmall: banner1Small, imageLarge: banner1Big, alt: 'banner1' },

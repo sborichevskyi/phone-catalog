@@ -7,23 +7,30 @@ import styles from './Slider.module.scss';
 import arrowLeft from '../../assets/Icons/Arrow-left.svg';
 import arrowRight from '../../assets/Icons/Arrow-right.svg';
 
+import baner1Small from '../../../public/img/baner1small.svg';
+import baner1Big from '../../../public/img/baner1.svg';
+import baner2Small from '../../../public/img/banner-accessoriesReadySmall.png';
+import baner2Big from '../../../public/img/banner-accessoriesReady.png';
+import baner3Small from '../../../public/img/banner-phonesSmall.png';
+import baner3Big from '../../../public/img/banner-phones.png';
+
 const slides = [
   {
     id: 1,
-    imageSmall: '/img/baner1small.svg',
-    imageLarge: '/img/baner1.svg',
+    imageSmall: baner1Small,
+    imageLarge: baner1Big,
     alt: 'banner1',
   },
   {
     id: 2,
-    imageSmall: '/img/banner-accessoriesReadySmall.png',
-    imageLarge: '/img/banner-accessoriesReady.png',
+    imageSmall: baner2Small,
+    imageLarge: baner2Big,
     alt: 'banner2',
   },
   {
     id: 3,
-    imageSmall: '/img/banner-phonesSmall.png',
-    imageLarge: '/img/banner-phones.png',
+    imageSmall: baner3Small,
+    imageLarge: baner3Big,
     alt: 'banner3',
   },
 ];

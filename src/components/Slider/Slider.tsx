@@ -4,20 +4,28 @@ import classNames from 'classnames';
 
 import styles from './Slider.module.scss';
 
-const banner1Big = '/img/baner1.svg';
-const banner1Small = '/img/baner1small.svg';
-const banner2Big = '/img/banner-accessoriesReady.png';
-const banner2Small = '/img/banner-accessoriesReadySmall.png';
-const banner3Big = '/img/banner-phones.png';
-const banner3Small = '/img/banner-phonesSmall.png';
-
 import arrowLeft from '../../assets/Icons/Arrow-left.svg';
 import arrowRight from '../../assets/Icons/Arrow-right.svg';
 
 const slides = [
-  { id: 1, imageSmall: banner1Small, imageLarge: banner1Big, alt: 'banner1' },
-  { id: 2, imageSmall: banner2Small, imageLarge: banner2Big, alt: 'banner2' },
-  { id: 3, imageSmall: banner3Small, imageLarge: banner3Big, alt: 'banner3' },
+  {
+    id: 1,
+    imageSmall: '/img/baner1small.svg',
+    imageLarge: '/img/baner1.svg',
+    alt: 'banner1',
+  },
+  {
+    id: 2,
+    imageSmall: '/img/banner-accessoriesReadySmall.png',
+    imageLarge: '/img/banner-accessoriesReady.png',
+    alt: 'banner2',
+  },
+  {
+    id: 3,
+    imageSmall: '/img/banner-phonesSmall.png',
+    imageLarge: '/img/banner-phones.png',
+    alt: 'banner3',
+  },
 ];
 
 export const Slider: React.FC = () => {
